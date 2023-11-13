@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.tete_du_site{
+    background: rgb(0,168,255);
+    background: linear-gradient(90deg, rgba(0,168,255,1) 0%, rgba(188,229,255,1) 41%, rgba(178,224,255,1) 59%, rgba(0,146,255,1) 100%);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 20px;
+}
+
+@font-face {
+    font-family: Cannes;
+    src: url("fonts/cannes.otf");
+}
+
+h1{
+    font-family: Cannes;
+    color: white;
+    font-size: 600%;
+    animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+    0% {color: rgb(255, 255, 255);}
+    50% {color: rgb(255, 233, 137);}
+  }
