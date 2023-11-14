@@ -3,6 +3,12 @@
     padding: 0px;
 }
 
+body{
+    background-image: url('images/images/bg.jpg');
+    background-position: fixed;
+    background-size: 100%;
+}
+
 .tete_du_site{
     background: rgb(0,168,255);
     background: linear-gradient(90deg, rgba(0,168,255,1) 0%, rgba(188,229,255,1) 41%, rgba(178,224,255,1) 59%, rgba(0,146,255,1) 100%);
@@ -25,7 +31,27 @@ h1{
     animation: myanimation 10s infinite;
 }
 
+h2{
+    font-family: Cannes;
+    color: white;
+    font-size: 400%;
+}
+
 @keyframes myanimation {
     0% {color: rgb(255, 255, 255);}
     50% {color: rgb(255, 233, 137);}
   }
+
+.div_flex_row{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0,0,0,.5);
+    backdrop-filter: blur(4px);
+    align-items:baseline ;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.div_test{
+    border-image: url('images/images/block-24.png') 10 / 19px round;
+}
